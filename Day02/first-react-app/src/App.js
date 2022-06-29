@@ -7,6 +7,7 @@ import ChildrenOfComponent from './component/ChildrenOfComponent';
 import DestructuringOfProps from './component/DestructuringOfProps';
 import UseState from './component/UseState';
 import Test from './component/Test';
+import EventPractice from './component/EventPractice';
 
 function App() {
   // return <PropsOfComponent name="REACT" tel="010-1111-2222" />;
@@ -21,7 +22,13 @@ function App() {
   //   </DestructuringOfProps>
   // );
 
-  return <UseState></UseState>;
+  return (
+    <div>
+      {/* <UseState></UseState> */}
+      {/* <PropsOfComponent></PropsOfComponent> */}
+      <EventPractice></EventPractice>
+    </div>
+  );
   // return <Test></Test>;
 }
 
