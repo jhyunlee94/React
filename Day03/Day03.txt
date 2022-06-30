@@ -54,3 +54,6 @@
                              한 번에 정의할 수 있다.
                              위에 백틱으로 지정하는 방식을
                              Tagged 탬플릿 리터럴이라고 함
+
+npm start, npm create react-app 프로젝트명
+npm install 라이브러리명 : 라이브러리 설치 명령어
