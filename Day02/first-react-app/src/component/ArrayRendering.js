@@ -33,6 +33,7 @@ const ArrayRendering = () => {
   };
   //배열의 map 함수를 이용하여 새로운 배열을 만들기
   const nameList = names.map((name) => (
+    // 이벤트에서는 () => 함수(매개변수) 로 해야함
     <li onDoubleClick={() => onRemove(name.id)} key={name.id}>
       {name.text}
     </li>
