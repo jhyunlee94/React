@@ -99,3 +99,12 @@
     - 비동기 통신이 속도가 빠르기 때문에 통신 프로토콜에서 대부분 
       비동기 통신을 사용한다.
     - 대표적인 비동기 통신 라이브러리 : JQuery의 Ajax, 리액트의 Axios
+
+    npm install axios
+
+    https://jsonplaceholder.typicode.com/todos
+    https://newsapi.org/register
+
+    Hi jonghyun!
+    Thanks for regis tering at News API.
+    Your API key is: 메모장 react 확인
