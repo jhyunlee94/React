@@ -6,6 +6,9 @@ import Profile from "./Components/Profile";
 import Articles from "./Components/Articles";
 import Article from "./Components/Article";
 import Layout from "./Components/Layout";
+import NotFound from "./Components/NotFound";
+import Login from "./Components/Login";
+import Mypage from "./Components/Mypage";
 function App() {
   return (
     <Routes>
@@ -16,7 +19,10 @@ function App() {
         <Route path="/articles" element={<Articles />}>
           <Route path=":id" element={<Article />}></Route>
         </Route>
+        <Route path="/login" element={<Login />}></Route>
+        <Route path="/mypage" element={<Mypage />}></Route>
       </Route>
+      <Route path="*" element={<NotFound />}></Route>
     </Routes>
   );
 }
