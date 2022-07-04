@@ -24,6 +24,8 @@ function todoReducer(todos, action) {
       return todos.filter((todo) => todo.id !== action.id);
     case 'CHECKED':
       return todos.map((todo) =>
+        //불변성을 지키기위해 원본 todo의 값을 변경하지 않고
+        //todo를 복제한 새로운 todo객체를 만들어서 리턴
         todo.id === action.id ? { ...todo, checked: !todo.checked } : todo,
       );
     default:
