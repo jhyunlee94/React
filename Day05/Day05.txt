@@ -104,7 +104,7 @@
 
     https://jsonplaceholder.typicode.com/todos
     https://newsapi.org/register
-
+    https://newsapi.org/s/south-korea-news-api
     Hi jonghyun!
     Thanks for regis tering at News API.
     Your API key is: 메모장 react 확인
