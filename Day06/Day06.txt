@@ -1,0 +1,13 @@
+    https://jsonplaceholder.typicode.com/todos
+    https://newsapi.org/register
+    https://newsapi.org/s/south-korea-news-api
+    Hi jonghyun!
+    Thanks for regis tering at News API.
+    Your API key is: 메모장 react 확인
+
+1. JSON이란
+    - JavaScript Object Notation의 약자
+    - 데이터를 저장하거나 전송할 때 많이 사용되는 경량의 DATA 교환 방식
+    - JSON은 단순히 데이터의 포맷일 뿐 통신방식도 프로그래밍 문법도 아님
+    - JSON은 Javascript 객체 기반의 데이터 포맷
+    
