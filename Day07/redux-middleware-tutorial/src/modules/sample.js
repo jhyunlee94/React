@@ -37,7 +37,7 @@ export const getUsers = () => async (dispatch) => {
   //요청 시작을 알림
   dispatch({ type: GET_USERS });
   try {
-    const response = await api.getUsers;
+    const response = await api.getUsers();
     dispatch({
       type: GET_USERS_SUCCESS,
       payload: response.data,
