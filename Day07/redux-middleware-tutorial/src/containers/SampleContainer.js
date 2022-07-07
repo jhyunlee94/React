@@ -29,8 +29,8 @@ export default connect(
   (state) => ({
     post: state.sample.post,
     users: state.sample.users,
-    loadingPost: state.sample.loading.GET_POST,
-    loadignUsers: state.sample.loading.GET_USERS,
+    loadingPost: state.loading["sample/GET_POST"],
+    loadignUsers: state.loading["sample/GET_USERS"],
   }),
   (dispatch) =>
     bindActionCreators(
