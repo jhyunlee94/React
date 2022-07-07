@@ -5,7 +5,7 @@ const Sample = ({ loadingPost, loadingUsers, post, users }) => {
     <div>
       <section>
         <h1>포스트</h1>
-        {loadingPost && "로딩중..."}
+        {loadingPost && "로딩 중...."}
         {!loadingPost && post && (
           <div>
             <h3>{post.title}</h3>
@@ -13,10 +13,10 @@ const Sample = ({ loadingPost, loadingUsers, post, users }) => {
           </div>
         )}
       </section>
-      <hr></hr>
+      <hr />
       <section>
         <h1>사용자 목록</h1>
-        {loadingUsers && "로딩중.."}
+        {loadingUsers && "로딩 중...."}
         {!loadingUsers && users && (
           <div>
             {users.map((user) => (

@@ -3,6 +3,7 @@ import Sample from "../components/Sample";
 import { getPost, getUsers } from "../modules/sample";
 import { useEffect } from "react";
 import { bindActionCreators } from "redux";
+
 const SampleContainer = ({
   getPost,
   getUsers,
@@ -30,7 +31,7 @@ export default connect(
     post: state.sample.post,
     users: state.sample.users,
     loadingPost: state.loading["sample/GET_POST"],
-    loadignUsers: state.loading["sample/GET_USERS"],
+    loadingUsers: state.loading["sample/GET_USERS"],
   }),
   (dispatch) =>
     bindActionCreators(
